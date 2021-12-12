@@ -86,7 +86,7 @@ def prediction_bartcnn(text,path_bart,tokenizer,model):
 
 def scrape(number_of_posts=1,keyword='stocks',
         clint_id="WWgBYx3DIJp2Y9tXpeRSKA",clinet_screct="SzcENicLrwcA0jky-R5_sDaS0GDHoA",
-        user_agent="my user agent",username = "mayanknlp_21",password = "dhyeyayushjaydevanshu"):
+        user_agent="my user agent",username = "Enter username",password = "Enter password"):
     reddit = praw.Reddit(client_id=clint_id,#my client id
                      client_secret=clinet_screct,  #your client secret
                      user_agent=user_agent, #user agent name
